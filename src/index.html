@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
+    .
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
@@ -57,12 +62,13 @@
       <li>
         <label>Role</label>
         <select class="picker" for="role">
-          <option value="">null</option>
+          <option value="null">null</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
         </select>
       </li>
+
       <li>
         <label>City</label>
         <select class="picker" for="city">
@@ -83,10 +89,20 @@
           <option value="Venezuela">Venezuela</option>
         </select>
       </li>
+      <li>
+        <label>Your photo</label>
+        <input class="picker" type="url" for="avatarURL" placeholder="url" />
+      </li>
     </ul>
     <div id="widget_content"></div>
 
     <!-- do not remove this bundle.js tag -->
+
     <script type="text/javascript" src="/main.bundle.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/463a7b45ff.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
